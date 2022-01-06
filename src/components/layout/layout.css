@@ -1,0 +1,22 @@
+.layout{
+    width: 100%;
+    overflow-x: hidden
+}
+
+.layout__content{
+    padding-right: var(--sidebar-width);
+    overflow-x: hidden;
+    background: rgb(241, 240, 240);
+    min-height: 100vh;
+    transition: linear .1s;
+}
+
+.layout__content-main{
+    padding: 20px;
+}
+
+@media only screen and (max-width: 770px) {
+    .layout__content-main{
+        padding: 10px
+    }
+}

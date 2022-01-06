@@ -1,0 +1,16 @@
+.top-nav{
+    min-height: var(--topnav-height);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background: var(--main-bg);
+}
+
+.top__dropdown-button{
+    cursor: pointer;
+    justify-content: space-between !important;
+    width: 120px !important
+}
+
+
